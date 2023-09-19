@@ -42,7 +42,6 @@ export default function Home() {
 
   useEffect(() => {
     getCars();
-    console.log(fuel, year, model, limit, manufacturer);
   }, [fuel, year, model, limit, manufacturer]);
   return (
     <main className="overflow-hidden">
@@ -62,8 +61,8 @@ export default function Home() {
         {allCars.length > 0 ? (
           <section>
             <div className="home__cars-wrapper">
-              {allCars?.map((car) => (
-                <CarCard car={car} />
+              {allCars?.map((car, idx) => (
+                <CarCard car={car} key={idx} />
               ))}
             </div>
             {loading && (
