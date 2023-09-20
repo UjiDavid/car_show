@@ -2,11 +2,11 @@
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './Components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   purge: {
-    content: ['./app/**/*.html', './app/globals.css', './components/**/*.{js,ts,jsx,tsx,mdx}'],
+    content: ['./app/**/*.html', './app/globals.css', './Components/**/*.{js,ts,jsx,tsx,mdx}'],
     safelist: ['bg-primary-blue', 'text-white'],
   },
   mode: 'jit',
