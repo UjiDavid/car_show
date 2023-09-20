@@ -6,7 +6,7 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   purge: {
-    content: ['./src/**/*.html'],
+    content: ['./app/**/*.html', './app/globals.css'],
     safelist: [
       'bg-primary-blue',
       'text-white',
