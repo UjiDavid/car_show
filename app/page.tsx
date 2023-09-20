@@ -1,6 +1,6 @@
 'use client';
 
-import { CarCard, CustomFilter, Hero, SearchBar, ShowMore } from '@/Components';
+import { CarCard, CustomFilter, Hero, SearchBar, ShowMore } from '@/components';
 import { fetchCars } from '@/utils';
 import { fuels, yearsOfProduction } from '@/Constants';
 import { HomeProps } from '@/types';
