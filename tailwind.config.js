@@ -25,6 +25,7 @@ module.exports = {
       'xl:h-full',
       'h-[590px]',
       'z-0',
+      'object-contain',
     ],
   },
   mode: 'jit',
