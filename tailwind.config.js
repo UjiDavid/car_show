@@ -26,6 +26,8 @@ module.exports = {
       'h-[590px]',
       'z-0',
       'object-contain',
+      'text-primary-blue',
+      'bg-white',
     ],
   },
   mode: 'jit',
